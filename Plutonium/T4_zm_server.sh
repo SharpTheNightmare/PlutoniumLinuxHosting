@@ -5,7 +5,7 @@ NAME="T4 Zombies 1"
 # Your Game Path (where there is binkw32.dll)
 PAT="path_to_T4Gamefiles"
 # Paste the server key from https://platform.plutonium.pw/serverkeys
-KEY="OANSSWkTgYxfF2e9g22ul2XVJZLJrJJX"
+KEY="your_server_key_goes_here"
 # Name of the config file the server should use. (default: dedicated_sp.cfg)
 CFG=dedicated_zm.cfg
 # Port used by the server (default: 28960) -> Don't forget to allow server port in ufw fail2ban
