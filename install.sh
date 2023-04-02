@@ -172,6 +172,8 @@ if [ "$updater" = 'y' ] || [ "$updater" = '' ] || [ "$updater" = 'Y' ] ; then
       sudo chmod +x T4_zm_server.sh
       sudo chmod +x T5_mp_server.sh
       sudo chmod +x T5_zm_server.sh
+      sudo chmod +x T6_mp_server.sh
+      sudo chmod +x T6_zm_server.sh
 
   } > /dev/null 2>&1 &
   Spinner "${mupdater2}"

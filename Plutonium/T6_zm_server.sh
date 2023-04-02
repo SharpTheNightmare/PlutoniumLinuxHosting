@@ -1,24 +1,23 @@
 #!/bin/bash
 ## Variable Region
 # Name of the server shown in the title of the terminal window
-NAME="T5 Zombies 1"
+NAME="T6 Zombies 1"
 # Your Game Path (where there is binkw32.dll)
-PAT="path_to_T5Gamefiles"
+PAT="path_to_T6Gamefiles"
 # Paste the server key from https://platform.plutonium.pw/serverkeys
-KEY="lV8KALADVVtjkseXwfhRcbIbMkqDUdNw"
+KEY="8JFfauJMkxwQYU0A6rPtE27tZjLGvV7X"
 # Name of the config file the server should use. (default: dedicated_sp.cfg)
 CFG=dedicated_zm.cfg
 # Port used by the server (default: 28960) -> Don't forget to allow server port in ufw fail2ban
 PORT=28961
-# Game Mode ( Multiplayer / Zombie ) -> ( t5mp / t5sp )
-MODE=t5sp
-# Mod name (default "", (eg. "mods/nazi_zombie_ragnarok"))
-MOD=""
-# Plutonium game dir, inside this repository
-INSTALLDIR="full_path_to_this_script_dir"
+# Game Mode ( Multiplayer / Zombie ) -> ( t6mp / t6zm )
+MODE=t6zm
 ## End Region
 
 ## Update Region
+# Plutonium game dir, inside this repository
+INSTALLDIR="full_path_to_this_script_dir"
+
 # Update your server game file
 ./plutonium-updater -d "$INSTALLDIR"
 ## End Region

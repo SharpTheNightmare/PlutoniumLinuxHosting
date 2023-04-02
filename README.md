@@ -4,23 +4,21 @@
 
 # Server Installer for Linux
 
-Simple installation and configuration of a T4/T5 server on Unix-like OSs with Wine support, this repo only provides instructions for T4/T5, but it's easily adjustable for T6 and other Plutonium supported games. This installer assumes you're using Ubuntu, but you can use it with every distro changing the dependencies links in `install.sh`. I actually use this on a Ubuntu AWS EC2 instance.
+Simple installation and configuration of a T4/T5/T6 server on Unix-like OSs with Wine support, this repo only provides instructions for T4/T5/T6, but it's easily adjustable for T6 and other Plutonium supported games. This installer assumes you're using Ubuntu, but you can use it with every distro changing the dependencies links in `install.sh`. I actually use this on a Ubuntu AWS EC2 instance.
 Forked and based on [T5Server](https://github.com/Sterbweise/T5Server)
 
 ## Synopsis
 In this guide we'll cover the following topics:
-- Scripts usage, `install.sh` and `T4/5_**_server.sh`. The first one starts the configuration process (dependencies and firewall ports set-up), the second one starts the actual server using Wine.
+- Scripts usage, `install.sh` and `T4_**_server.sh`. The first one starts the configuration process (dependencies and firewall ports set-up), the second one starts the actual server using Wine.
 - Manual variables changing, depending on your needs (ports, IPs, folders).
 - Setting up FastDL for easier custom maps support on your server
 
 ## Requirements
 + ~10GB dedicated for this server.
 + Root permissions.
-+ T4-WaW/T5-BO1 gamefiles, you can easily find them on your own. 
++ T4-WaW/T5-BO1/T6-BO2 gamefiles, you can easily find them on your own. 
 
-[I highly recommend removing unnecessary game files on T4](https://plutonium.pw/docs/server/t4/setting-up-a-server/#4-optional-slimming-down-server-directory)
-
-[I highly recommend removing unnecessary game files on T5](https://plutonium.pw/docs/server/t5/setting-up-a-server/#4-optional-slimming-down-server-directory)
+I highly recommend removing unnecessary game files on [T4](https://plutonium.pw/docs/server/t4/setting-up-a-server/#4-optional-slimming-down-server-directory)/[T5](https://plutonium.pw/docs/server/t5/setting-up-a-server/#4-optional-slimming-down-server-directory)/[T6](https://plutonium.pw/docs/server/t6/setting-up-a-server/#4-optional-slimming-down-server-directory)
 
 ## Instructions
 1. Clone the repository wherever you need to: 
